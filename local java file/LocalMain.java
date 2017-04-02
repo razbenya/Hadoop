@@ -28,7 +28,7 @@ public class LocalMain {
 
 	public static void main(String[] args) throws FileNotFoundException, IOException {
 		
-		if(args[2].equals("eng"))
+	if(args[2].equals("eng"))
             inputPath = "s3://datasets.elasticmapreduce/ngrams/books/20090715/eng-us-all/2gram/data";
         else
             inputPath = "s3://datasets.elasticmapreduce/ngrams/books/20090715/heb-all/2gram/data";
