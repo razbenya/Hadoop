@@ -1,0 +1,1 @@
+]jobId=job_1423431760843_0006,submitTime=1423434526901,launchTime=1423434534258,firstMapTaskLaunchTime=1423434537042,firstReduceTaskLaunchTime=1423434551614,finishTime=1423434596354,resourcesPerMap=1024,resourcesPerReduce=1024,numMaps=2,numReduces=1,user=Hebron,queue=default,status=FAILED,mapSlotSeconds=68,reduceSlotSeconds=44,jobName=CharCount.jar

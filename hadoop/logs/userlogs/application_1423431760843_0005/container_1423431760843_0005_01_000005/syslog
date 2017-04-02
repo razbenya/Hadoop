@@ -1,0 +1,29 @@
+2015-02-08 17:27:31,193 WARN [main] org.apache.hadoop.conf.Configuration: job.xml:an attempt to override final parameter: mapreduce.job.end-notification.max.retry.interval;  Ignoring.
+2015-02-08 17:27:31,486 WARN [main] org.apache.hadoop.conf.Configuration: job.xml:an attempt to override final parameter: mapreduce.job.end-notification.max.attempts;  Ignoring.
+2015-02-08 17:27:33,331 INFO [main] org.apache.hadoop.metrics2.impl.MetricsConfig: loaded properties from hadoop-metrics2.properties
+2015-02-08 17:27:33,475 INFO [main] org.apache.hadoop.metrics2.impl.MetricsSystemImpl: Scheduled snapshot period at 10 second(s).
+2015-02-08 17:27:33,475 INFO [main] org.apache.hadoop.metrics2.impl.MetricsSystemImpl: ReduceTask metrics system started
+2015-02-08 17:27:33,488 INFO [main] org.apache.hadoop.mapred.YarnChild: Executing with tokens:
+2015-02-08 17:27:33,489 INFO [main] org.apache.hadoop.mapred.YarnChild: Kind: mapreduce.job, Service: job_1423431760843_0005, Ident: (org.apache.hadoop.mapreduce.security.token.JobTokenIdentifier@329bb504)
+2015-02-08 17:27:33,670 INFO [main] org.apache.hadoop.mapred.YarnChild: Sleeping for 0ms before retrying again. Got null now.
+2015-02-08 17:27:34,478 INFO [main] org.apache.hadoop.mapred.YarnChild: mapreduce.cluster.local.dir for child: /tmp/hadoop-Hebron/nm-local-dir/usercache/Hebron/appcache/application_1423431760843_0005
+2015-02-08 17:27:34,947 WARN [main] org.apache.hadoop.conf.Configuration: job.xml:an attempt to override final parameter: mapreduce.job.end-notification.max.retry.interval;  Ignoring.
+2015-02-08 17:27:34,947 WARN [main] org.apache.hadoop.conf.Configuration: job.xml:an attempt to override final parameter: mapreduce.job.end-notification.max.attempts;  Ignoring.
+2015-02-08 17:27:34,963 WARN [main] org.apache.hadoop.conf.Configuration: job.xml:an attempt to override final parameter: dfs.webhdfs.enabled;  Ignoring.
+2015-02-08 17:27:36,164 INFO [main] org.apache.hadoop.conf.Configuration.deprecation: session.id is deprecated. Instead, use dfs.metrics.session-id
+2015-02-08 17:27:36,726 INFO [main] org.apache.hadoop.yarn.util.ProcfsBasedProcessTree: ProcfsBasedProcessTree currently is supported only on Linux.
+2015-02-08 17:27:36,789 INFO [main] org.apache.hadoop.mapred.Task:  Using ResourceCalculatorProcessTree : org.apache.hadoop.yarn.util.WindowsBasedProcessTree@152cecd2
+2015-02-08 17:27:36,820 INFO [main] org.apache.hadoop.mapred.ReduceTask: Using ShuffleConsumerPlugin: org.apache.hadoop.mapreduce.task.reduce.Shuffle@af6cd14
+2015-02-08 17:27:36,851 INFO [main] org.apache.hadoop.mapreduce.task.reduce.MergeManagerImpl: MergerManager: memoryLimit=141937872, maxSingleShuffleLimit=35484468, mergeThreshold=93679000, ioSortFactor=10, memToMemMergeOutputsThreshold=10
+2015-02-08 17:27:37,039 INFO [EventFetcher for fetching Map Completion Events] org.apache.hadoop.mapreduce.task.reduce.EventFetcher: attempt_1423431760843_0005_r_000000_0 Thread started: EventFetcher for fetching Map Completion Events
+2015-02-08 17:27:37,070 INFO [EventFetcher for fetching Map Completion Events] org.apache.hadoop.mapreduce.task.reduce.ShuffleSchedulerImpl: Ignoring obsolete output of FAILED map-task: 'attempt_1423431760843_0005_m_000001_0'
+2015-02-08 17:27:37,070 INFO [EventFetcher for fetching Map Completion Events] org.apache.hadoop.mapreduce.task.reduce.ShuffleSchedulerImpl: Ignoring obsolete output of FAILED map-task: 'attempt_1423431760843_0005_m_000001_1'
+2015-02-08 17:27:37,070 INFO [EventFetcher for fetching Map Completion Events] org.apache.hadoop.mapreduce.task.reduce.EventFetcher: attempt_1423431760843_0005_r_000000_0: Got 1 new map-outputs
+2015-02-08 17:27:37,070 INFO [fetcher#1] org.apache.hadoop.mapreduce.task.reduce.ShuffleSchedulerImpl: Assigning 10.211.55.30:13562 with 1 to fetcher#1
+2015-02-08 17:27:37,070 INFO [fetcher#1] org.apache.hadoop.mapreduce.task.reduce.ShuffleSchedulerImpl: assigned 1 of 1 to 10.211.55.30:13562 to fetcher#1
+2015-02-08 17:27:37,335 INFO [fetcher#1] org.apache.hadoop.mapreduce.task.reduce.Fetcher: for url=13562/mapOutput?job=job_1423431760843_0005&reduce=0&map=attempt_1423431760843_0005_m_000000_0 sent hash and received reply
+2015-02-08 17:27:37,351 INFO [fetcher#1] org.apache.hadoop.mapreduce.task.reduce.Fetcher: fetcher#1 about to shuffle output of map attempt_1423431760843_0005_m_000000_0 decomp: 86 len: 90 to MEMORY
+2015-02-08 17:27:37,351 INFO [fetcher#1] org.apache.hadoop.mapreduce.task.reduce.InMemoryMapOutput: Read 86 bytes from map-output for attempt_1423431760843_0005_m_000000_0
+2015-02-08 17:27:37,351 INFO [fetcher#1] org.apache.hadoop.mapreduce.task.reduce.MergeManagerImpl: closeInMemoryFile -> map-output of size: 86, inMemoryMapOutputs.size() -> 1, commitMemory -> 0, usedMemory ->86
+2015-02-08 17:27:37,351 INFO [fetcher#1] org.apache.hadoop.mapreduce.task.reduce.ShuffleSchedulerImpl: 10.211.55.30:13562 freed by fetcher#1 in 281ms
+2015-02-08 17:27:44,495 INFO [EventFetcher for fetching Map Completion Events] org.apache.hadoop.mapreduce.task.reduce.ShuffleSchedulerImpl: Ignoring obsolete output of FAILED map-task: 'attempt_1423431760843_0005_m_000001_2'
