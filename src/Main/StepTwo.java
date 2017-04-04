@@ -18,7 +18,7 @@ import org.apache.hadoop.util.ToolRunner;
 import java.io.IOException;
 
 /**
- * Created by Neta on 2017-03-08.
+ * Created by Razb on 2017-03-08.
  */
 public class StepTwo extends Configured implements Tool {
     private static final String inputPath="s3n://razbucket2/TempOutPut";
