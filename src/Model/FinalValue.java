@@ -7,7 +7,7 @@ import java.io.DataOutput;
 import java.io.IOException;
 
 /**
- * Created by Neta on 2017-03-08.
+ * Created by Razb on 2017-03-08.
  */
 public class FinalValue implements Writable {
     private String word1;
