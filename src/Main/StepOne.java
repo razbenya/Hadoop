@@ -13,8 +13,8 @@ import org.apache.hadoop.util.Tool;
 import org.apache.hadoop.util.ToolRunner;
 
 /**
- * Created by Neta on 2017-03-08.
- */
+  * Created by Razb on 2017-03-08.
+  */
 public class StepOne extends Configured implements Tool {
     private static String inputPath;
     private static final String outputPath = "s3n://razbucket2/TempOutPut";
